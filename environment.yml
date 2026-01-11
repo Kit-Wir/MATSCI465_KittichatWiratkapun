@@ -1,0 +1,11 @@
+name: matsci465
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - scipy
+  - matplotlib
+  - hyperspy
+  - jupyterlab
+  - imagecodecs
+prefix: C:\Users\pkwki\anaconda3\envs\matsci465
