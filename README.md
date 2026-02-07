@@ -12,6 +12,7 @@ This repository contains Assignment 01 for MATSCI 465 (Advanced Electron Microsc
 
 The notebook was run locally using Anaconda on Windows.
 
+# MATSCI465 – Assignment 02
 Virtual Detectors and Post-Acquisition Imaging
 
 In 4D-STEM, a full diffraction pattern is recorded at every probe scan position. This means that all scattered electron information is stored during acquisition, rather than being limited by a fixed physical detector geometry.
