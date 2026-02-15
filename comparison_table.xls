@@ -1,0 +1,7 @@
+Method,Metric,Score,Data,Interpretability,Runtime
+Watershed (classical),avg particles/image,599.54,no labels,high,fast
+SVM (ML),F1,0.9942492012779552,region features + proxy labels,med,fast
+Random Forest (ML),F1,1.0,region features + proxy labels,med-high,fast
+k-Means (ML),silhouette (k=3),0.3002496965461831,region features,low-med,fast
+CNN (DL),F1,0.8571428571428571,image labels (proxy),low,med
+U-Net (DL),Dice / IoU,"Dice=0.607, IoU=0.436",pixel masks (pseudo),med,med-slow

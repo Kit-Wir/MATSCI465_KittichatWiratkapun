@@ -1,0 +1,7 @@
+Method,Precision,Recall,F1,Silhouette_Score,Notes
+SVM (supervised),0.9967969250480462,0.9917144678138942,0.9942492012779552,,"Top features: equivalent_diameter,area,perimeter,circularity,lbp_mean,solidity,std_intensity"
+Random Forest (supervised),1.0,1.0,1.0,,"Top features: equivalent_diameter,area,perimeter,circularity,lbp_mean,solidity,std_intensity"
+"k-Means (unsupervised, k=3)",,,,0.3002496965461831,Clustering on selected features
+"k-Means (unsupervised, k=5)",,,,0.2179627013095901,Clustering on selected features
+"k-Means (unsupervised, k=7)",,,,0.2310436775935816,Clustering on selected features
+Comparison vs Classical,,,,,Avg particles/image=579.80; avg runtime/image(s)=0.8449
